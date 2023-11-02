@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularTDF';
+
+  onSubmit(contactForm:any){
+    console.log(contactForm.value);
+  }
 }
